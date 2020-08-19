@@ -154,8 +154,8 @@ tf_load_labels (TFModelInfo * tf_info)
 static gboolean
 tf_init_info (TFModelInfo * tf_info, const gchar * path)
 {
-  const gchar tf_model[] = "ssdlite_mobilenet_v2.pb";
-  const gchar tf_label[] = "coco_labels_list.txt";
+  const gchar tf_model[] = "gog-640x480.pb";
+  const gchar tf_label[] = "coco_labels_list_tf.txt";
 
   g_return_val_if_fail (tf_info != NULL, FALSE);
 
